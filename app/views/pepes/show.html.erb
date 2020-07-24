@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @pepe.nombre %>
+</p>
+
+<p>
+  <strong>Edad:</strong>
+  <%= @pepe.edad %>
+</p>
+
+<%= link_to 'Edit', edit_pepe_path(@pepe) %> |
+<%= link_to 'Back', pepes_path %>
